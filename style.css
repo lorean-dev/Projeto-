@@ -1,0 +1,61 @@
+@media(max-width:400px){
+
+body {
+    
+    background-color:gray;
+}
+
+.grid{
+ display:grid;
+ grid-template-columns:2fr 1fr;
+ 
+ 
+}
+
+.formatacao{
+ border-width:4px;
+ border-style:solid;
+ border-color:#F5DA0A;
+ border-radius:10px;
+ text-align:center;
+ font-size:100%;
+ color:black ;
+ background:white;
+ font-style:italic;
+ box-sizing:border-box;
+ margin:2%;
+ display:block;
+ background-color:lightblue;
+}
+
+#digitar_numero{
+background-color:lightblue;
+ 
+}
+
+.formatacao_title {
+ font-size: 200%;
+ text-decoration: underline;
+}
+
+.botao{
+ box-sizing:border-box;
+ border-radius:90px;
+ font-size:80%;
+ width:60px;
+ height:60px;
+ display:inline-block;
+ position:relative;
+ background-color:lightgreen;
+ color:green;
+ font-weight:bold;
+ padding:1px;
+}
+
+.botao_enviar{
+ background-color:#FD6B6B;
+color:red;
+ 
+}
+
+}

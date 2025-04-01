@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!--  -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <!--  titull-->
+ <h1 class="formatacao formatacao_title">
+  Jogo de Adivinhação
+ </h1>
+ 
+ <!--tela  -->
+ <div class="grid">
+     
+ <div class=formatacao id = tela>
+  clique no botao "comecar" abaixo para gerar um numero.
+  aqui sera gerado o numero aleatório 
+ </div>
+ 
+ 
+ <div>
+<h2 class = "formatacao">
+ Numero de tentativas
+</h2>
+<div class=formatacao id ="NumeroTentativas">
+ undefined
+</div>
+</div>
+  
+ </div>
+ <!--fim da tela  -->
+ 
+ <!-- comecar novo jogo-->
+ <button type = button class = botao id = novojogo>
+ começar
+ </button>
+ <!--  -->
+
+  <!-- painel de dicas-->
+ <p id = dica class= formatacao>
+  aqui sera mostrada as dicas
+ </p>
+ <!--  -->
+ 
+ <!-- campo de input do usuario -->
+ <label for = digitar_numero class = formatacao>
+  digite um valor abaixo
+ </label >
+ <input type = number  id = digitar_numero >
+ <br>
+ <button type = click id =enviar class = botao>
+  enviar
+ </button>
+ <!--  -->
+ <!-- explicacao do jogo -->
+ <p class = formatacao>
+  Descubra o valor escondido digitando no
+  campo acima, voce so tem 10 numero de
+  tentativas.
+ </p>
+ <!--  -->
+ 
+  <script src="main.js" type="module"></script>
+</body>
+</html>
